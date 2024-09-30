@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Restaurant Name</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites</h1>
+        
+        <nav>
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Address: 123 Restaurant St, Food City, FC 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@restaurant.com</p>
+            <h2>Reservation Form</h2>
+            <form id="contact-form" action="contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+                
+                <label for="persons">Number of Persons:</label>
+                <input type="number" id="persons" name="persons" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="credit" style="color: black;">Credit Card</option>
+                    <option value="debit" style="color: black;">Debit Card</option>
+                    <option value="cash" style="color: black;">Cash</option>
+                </select>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> 
+            </form>
+            <h2>Our Location</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094393!2d144.95373631531652!3d-37.81627927975162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c40a3f5b9b7d!2sFlinders%20Street%20Station!5e0!3m2!1sen!2sau!4v1572568196866!5m2!1sen!2sau" width="600" height="450" style="border:0;" ></iframe>
+            </div>
+        </section>
+
+        <section id="discounts">
+            <h2>Go Cashless, Save More!</h2>
+            <p>Promote eco-friendly behavior by opting for cashless payments and enjoy exciting discounts:</p>
+            <ul>
+                <li><strong>25% Discount</strong> on Credit Card Payments</li>
+                <li><strong>30% Discount</strong> on Debit Card Payments</li>
+            </ul>
+            <p>Let's work together to reduce cash usage and promote a greener environment.</p>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
