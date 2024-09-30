@@ -1,4 +1,4 @@
-# Food Website (Frontend) using HTML, CSS, JavaScript, and PHP
+# Food Website (Frontend) using HTML, CSS, JavaScript, and PHP as a Backend
 
 This is a Food Restaurant-based website designed using HTML, CSS, JavaScript, and PHP for backend processing, with PhpMyAdmin (XAMPP) used for database management.
 
