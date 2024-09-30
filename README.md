@@ -1,7 +1,3 @@
-Here’s your content formatted properly for a GitHub README file:
-
----
-
 # Food Website using HTML, CSS, JavaScript, and PHP
 
 This is a Food Restaurant-based website designed using HTML, CSS, JavaScript, and PHP for backend processing, with PhpMyAdmin (XAMPP) used for database management.
